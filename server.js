@@ -12,7 +12,7 @@ var port = process.env.PORT || 3001,
 
 //test it using localhost:3001/api
 router.get('/', function(req, res) {
-    res.json({ appName:  'logger', version: '0.0.1', description: 'app error info logger' });
+    res.json({ appName:  'logger', version: '0.0.1', description: 'logger api' });
 });
 
 app.use('/api', router);
